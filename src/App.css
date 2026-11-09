@@ -1,0 +1,16 @@
+.app {
+  min-height: 100vh;
+  padding: 24px 25px;
+  background-color: #ffffff;
+  transition: background-color 200ms ease;
+}
+
+.app[data-theme='dark'] {
+  background-color: #222222;
+}
+
+.app__actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 1px;
+}
